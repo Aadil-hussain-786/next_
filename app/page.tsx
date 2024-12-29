@@ -13,9 +13,10 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {
   useEffect(() => {
-        /
         if (typeof document !== "undefined") {
-            console.log("This runs only in the browser");
+            const element = document.createElement("div");
+            element.innerText = "Hello, browser!";
+            document.body.appendChild(element);
         }
     }, []);
   return (
