@@ -6,6 +6,9 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
+import dynamic from "next/dynamic";
+
+const SomeComponent = dynamic(() => import("./SomeComponent"), { ssr: false });
 (() => {
 var exports = {};
 exports.id = "app/page";
