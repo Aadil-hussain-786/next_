@@ -10,60 +10,39 @@ export const navItems = [
 export const gridItems = [
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "font-play text-black lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "",
+    img: "w_bg.PNG",
     spareImg: "",
-  },
-  {
-    id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/dnn.PNG",
-    spareImg: "",
-  },
-  
-  {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
   },
 
   {
     id: 5,
     title: "Currently building a Adversarial Rubustness & Security Model",
     description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
+    className: "font-play md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     spareImg: "/adversarial.PNG",
   },
   {
+  id: 4,
+  title: "",
+  description: "",
+  className: "font-play lg:col-span-2 md:col-span-3 md:row-span-1",
+  imgClassName: "",
+  titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+  img: "neural.jpg",
+  spareImg: "",
+},
+  {
     id: 6,
     title: "Do you want to start a project together?",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    className: "font-play lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
@@ -76,7 +55,7 @@ export const projects = [
     id: 1,
     title: "Interception Tool",
     des: "A CyberSecurity tool for captures and analyze network traffic, aiding in panetration testing",
-    img: "/intercept.PNG",
+    img: "/cy.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/https://github.com/Aadil-hussain-786/Intercept-tool",
   },
@@ -84,7 +63,7 @@ export const projects = [
     id: 2,
     title: "Deep Learning Chatbot",
     des: "Chatbot using Tensorflow and Keras API",
-    img: "/chatbot.png",
+    img: "/cb.png",
     iconLists: ["/tf.png", "/keras.png", "colab.jfif"],
     link: "/Coming Soon",
   },
@@ -94,21 +73,21 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Aadil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Aadil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Aadil is the ideal partner.",
-    name: "Jaydeep MK",
+      "Working with Aadil was a fantastic experience. His professionalism, quick responses, and commitment to achieving outstanding results were clear throughout our project. Aadil's passion for every aspect of development really shines through. If you're looking to enhance your website and boost your brand, Aadil is the perfect partner.",
+    name: "Jay",
     title: "",
   },
   {
     quote:
-      "Working with Aadil has been an inspiring experience! Their expertise in AI development and commitment to pushing the boundaries of what's possible make them a standout talent in the field. Whether tackling complex model architectures, optimizing algorithms, or implementing cutting-edge solutions, [Friend's Name] brings both technical depth and a collaborative spirit to every project. Their ability to transform ideas into actionable, impactful AI solutions is truly impressive, and any team would be lucky to have such a dedicated and innovative developer onboard!",
-    name: "Hashvardhan Tiwari",
+      "Working with Aadil has been a truly inspiring experience! Their deep knowledge in AI development and dedication to exploring new possibilities set them apart in the industry. Whether it's addressing intricate model architectures, fine-tuning algorithms, or deploying state-of-the-art solutions, Aadil brings a wealth of technical expertise and a collaborative attitude to every project. Their knack for turning concepts into effective, impactful AI solutions is remarkable, and any team would be fortunate to have such a committed and creative developer on board!",
+    name: "Harsh",
     title: "Researcher",
   
   },
   {
     quote:
-      "Aadil is an outstanding backend developer with a specialty in Flask who brings unparalleled expertise and efficiency to server-side development. They design robust, scalable architectures and write clean, maintainable code that ensures applications run smoothly and securely",
-    name: "Mohnish Dubey",
+      "Aadil is an exceptional backend developer specializing in Flask, known for their unmatched expertise and efficiency in server-side development. They create strong, scalable architectures and produce clean, maintainable code that guarantees applications operate smoothly and securely.",
+    name: "Manish",
     title: "",
   },
   
@@ -125,7 +104,7 @@ export const companies = [
     id: 2,
     name: "Keras",
     img: "/keras.png",
-    nameImg: "/keras_name.png",
+    nameImg: "/keras_name.PNG",
   },
 
   {
@@ -147,8 +126,8 @@ export const workExperience = [
     id: 1,
     title: "Frontend Engineer Intern",
     desc: "Assisted in the development of a web-based platform using HTML, CSS ,, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    className: "text-black md:col-span-2",
+    thumbnail: "/ss.png",
   },
   {
     id: 2,
@@ -162,14 +141,14 @@ export const workExperience = [
     title: "Deep Learning Researcher ",
     desc: "As a researcher focused on adversarial robustness and security in neural networks, my work delves into building models resilient to adversarial attacks and ensuring their safe deployment in sensitive applications. This research combines theoretical understanding with practical experimentation, involving the creation and analysis of adversarial examples, designing countermeasures, and developing frameworks for robustness evaluation. I employ a range of techniques, including adversarial training, regularization methods, and robustness testing, with the goal of improving the security and reliability of AI models in high-stakes environments. This work requires continuous learning, experimentation, and cross-disciplinary insight into cybersecurity and AI ethics, aiming to make AI models safer and more trustworthy.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/dl.png",
+    thumbnail: "/ss2.png",
   },
   {
     id: 4,
     title: "Lead Frontend Developer",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/images.png",
   },
 ];
 
